@@ -1,410 +1,335 @@
+{% load sass_tags %}
 {% load static %}
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='stylesheet' href="{% static 'css/pass_text.css' %}">
-  <link rel='stylesheet' href="{% static 'css/pass_border.css' %}">
-  <link rel='stylesheet' href="{% static 'css/pass_responsive.css' %}">
-  <link rel="shortcut icon" type="image/png" src="{% static 'img/congratulation.png' %}">
-  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-  <link rel='stylesheet' href="{% static 'css/pass_congratulation.css' %}">
-
-  <title>합격!</title>
-  <style>
-    
-  </style>
-</head>
-<body translate="no" class="vsc-initialized">
-	<div class="wrapper">
-    <div class="confetti-301"></div>
-    <div class="confetti-300"></div>
-    <div class="confetti-299"></div>
-    <div class="confetti-298"></div>
-    <div class="confetti-297"></div>
-    <div class="confetti-296"></div>
-    <div class="confetti-295"></div>
-    <div class="confetti-294"></div>
-    <div class="confetti-293"></div>
-    <div class="confetti-292"></div>
-    <div class="confetti-291"></div>
-    <div class="confetti-290"></div>
-    <div class="confetti-289"></div>
-    <div class="confetti-288"></div>
-    <div class="confetti-287"></div>
-    <div class="confetti-286"></div>
-    <div class="confetti-285"></div>
-    <div class="confetti-284"></div>
-    <div class="confetti-283"></div>
-    <div class="confetti-282"></div>
-    <div class="confetti-281"></div>
-    <div class="confetti-280"></div>
-    <div class="confetti-279"></div>
-    <div class="confetti-278"></div>
-    <div class="confetti-277"></div>
-    <div class="confetti-276"></div>
-    <div class="confetti-275"></div>
-    <div class="confetti-274"></div>
-    <div class="confetti-273"></div>
-    <div class="confetti-272"></div>
-    <div class="confetti-271"></div>
-    <div class="confetti-270"></div>
-    <div class="confetti-269"></div>
-    <div class="confetti-268"></div>
-    <div class="confetti-267"></div>
-    <div class="confetti-266"></div>
-    <div class="confetti-265"></div>
-    <div class="confetti-264"></div>
-    <div class="confetti-263"></div>
-    <div class="confetti-262"></div>
-    <div class="confetti-261"></div>
-    <div class="confetti-260"></div>
-    <div class="confetti-259"></div>
-    <div class="confetti-258"></div>
-    <div class="confetti-257"></div>
-    <div class="confetti-256"></div>
-    <div class="confetti-255"></div>
-    <div class="confetti-254"></div>
-    <div class="confetti-253"></div>
-    <div class="confetti-252"></div>
-    <div class="confetti-251"></div>
-    <div class="confetti-250"></div>
-    <div class="confetti-249"></div>
-    <div class="confetti-248"></div>
-    <div class="confetti-247"></div>
-    <div class="confetti-246"></div>
-    <div class="confetti-245"></div>
-    <div class="confetti-244"></div>
-    <div class="confetti-243"></div>
-    <div class="confetti-242"></div>
-    <div class="confetti-241"></div>
-    <div class="confetti-240"></div>
-    <div class="confetti-239"></div>
-    <div class="confetti-238"></div>
-    <div class="confetti-237"></div>
-    <div class="confetti-236"></div>
-    <div class="confetti-235"></div>
-    <div class="confetti-234"></div>
-    <div class="confetti-233"></div>
-    <div class="confetti-232"></div>
-    <div class="confetti-231"></div>
-    <div class="confetti-230"></div>
-    <div class="confetti-229"></div>
-    <div class="confetti-228"></div>
-    <div class="confetti-227"></div>
-    <div class="confetti-226"></div>
-    <div class="confetti-225"></div>
-    <div class="confetti-224"></div>
-    <div class="confetti-223"></div>
-    <div class="confetti-222"></div>
-    <div class="confetti-221"></div>
-    <div class="confetti-220"></div>
-    <div class="confetti-219"></div>
-    <div class="confetti-218"></div>
-    <div class="confetti-217"></div>
-    <div class="confetti-216"></div>
-    <div class="confetti-215"></div>
-    <div class="confetti-214"></div>
-    <div class="confetti-213"></div>
-    <div class="confetti-212"></div>
-    <div class="confetti-211"></div>
-    <div class="confetti-210"></div>
-    <div class="confetti-209"></div>
-    <div class="confetti-208"></div>
-    <div class="confetti-207"></div>
-    <div class="confetti-206"></div>
-    <div class="confetti-205"></div>
-    <div class="confetti-204"></div>
-    <div class="confetti-203"></div>
-    <div class="confetti-202"></div>
-    <div class="confetti-201"></div>
-    <div class="confetti-200"></div>
-    <div class="confetti-199"></div>
-    <div class="confetti-198"></div>
-    <div class="confetti-197"></div>
-    <div class="confetti-196"></div>
-    <div class="confetti-195"></div>
-    <div class="confetti-194"></div>
-    <div class="confetti-193"></div>
-    <div class="confetti-192"></div>
-    <div class="confetti-191"></div>
-    <div class="confetti-190"></div>
-    <div class="confetti-189"></div>
-    <div class="confetti-188"></div>
-    <div class="confetti-187"></div>
-    <div class="confetti-186"></div>
-    <div class="confetti-185"></div>
-    <div class="confetti-184"></div>
-    <div class="confetti-183"></div>
-    <div class="confetti-182"></div>
-    <div class="confetti-181"></div>
-    <div class="confetti-180"></div>
-    <div class="confetti-179"></div>
-    <div class="confetti-178"></div>
-    <div class="confetti-177"></div>
-    <div class="confetti-176"></div>
-    <div class="confetti-175"></div>
-    <div class="confetti-174"></div>
-    <div class="confetti-173"></div>
-    <div class="confetti-172"></div>
-    <div class="confetti-171"></div>
-    <div class="confetti-170"></div>
-    <div class="confetti-169"></div>
-    <div class="confetti-168"></div>
-    <div class="confetti-167"></div>
-    <div class="confetti-166"></div>
-    <div class="confetti-165"></div>
-    <div class="confetti-164"></div>
-    <div class="confetti-163"></div>
-    <div class="confetti-162"></div>
-    <div class="confetti-161"></div>
-    <div class="confetti-160"></div>
-    <div class="confetti-159"></div>
-    <div class="confetti-158"></div>
-    <div class="confetti-157"></div>
-    <div class="confetti-156"></div>
-    <div class="confetti-155"></div>
-    <div class="confetti-154"></div>
-    <div class="confetti-153"></div>
-    <div class="confetti-152"></div>
-    <div class="confetti-151"></div>
-    <div class="confetti-150"></div>
-    <div class="confetti-149"></div>
-    <div class="confetti-148"></div>
-    <div class="confetti-147"></div>
-    <div class="confetti-146"></div>
-    <div class="confetti-145"></div>
-    <div class="confetti-144"></div>
-    <div class="confetti-143"></div>
-    <div class="confetti-142"></div>
-    <div class="confetti-141"></div>
-    <div class="confetti-140"></div>
-    <div class="confetti-139"></div>
-    <div class="confetti-138"></div>
-    <div class="confetti-137"></div>
-    <div class="confetti-136"></div>
-    <div class="confetti-135"></div>
-    <div class="confetti-134"></div>
-    <div class="confetti-133"></div>
-    <div class="confetti-132"></div>
-    <div class="confetti-131"></div>
-    <div class="confetti-130"></div>
-    <div class="confetti-129"></div>
-    <div class="confetti-128"></div>
-    <div class="confetti-127"></div>
-    <div class="confetti-126"></div>
-    <div class="confetti-125"></div>
-    <div class="confetti-124"></div>
-    <div class="confetti-123"></div>
-    <div class="confetti-122"></div>
-    <div class="confetti-121"></div>
-    <div class="confetti-120"></div>
-    <div class="confetti-119"></div>
-    <div class="confetti-118"></div>
-    <div class="confetti-117"></div>
-    <div class="confetti-116"></div>
-    <div class="confetti-115"></div>
-    <div class="confetti-114"></div>
-    <div class="confetti-113"></div>
-    <div class="confetti-112"></div>
-    <div class="confetti-111"></div>
-    <div class="confetti-110"></div>
-    <div class="confetti-109"></div>
-    <div class="confetti-108"></div>
-    <div class="confetti-107"></div>
-    <div class="confetti-106"></div>
-    <div class="confetti-105"></div>
-    <div class="confetti-104"></div>
-    <div class="confetti-103"></div>
-    <div class="confetti-102"></div>
-    <div class="confetti-101"></div>
-    <div class="confetti-100"></div>
-    <div class="confetti-99"></div>
-    <div class="confetti-98"></div>
-    <div class="confetti-97"></div>
-    <div class="confetti-96"></div>
-    <div class="confetti-95"></div>
-    <div class="confetti-94"></div>
-    <div class="confetti-93"></div>
-    <div class="confetti-92"></div>
-    <div class="confetti-91"></div>
-    <div class="confetti-90"></div>
-    <div class="confetti-89"></div>
-    <div class="confetti-88"></div>
-    <div class="confetti-87"></div>
-    <div class="confetti-86"></div>
-    <div class="confetti-85"></div>
-    <div class="confetti-84"></div>
-    <div class="confetti-83"></div>
-    <div class="confetti-82"></div>
-    <div class="confetti-81"></div>
-    <div class="confetti-80"></div>
-    <div class="confetti-79"></div>
-    <div class="confetti-78"></div>
-    <div class="confetti-77"></div>
-    <div class="confetti-76"></div>
-    <div class="confetti-75"></div>
-    <div class="confetti-74"></div>
-    <div class="confetti-73"></div>
-    <div class="confetti-72"></div>
-    <div class="confetti-71"></div>
-    <div class="confetti-70"></div>
-    <div class="confetti-69"></div>
-    <div class="confetti-68"></div>
-    <div class="confetti-67"></div>
-    <div class="confetti-66"></div>
-    <div class="confetti-65"></div>
-    <div class="confetti-64"></div>
-    <div class="confetti-63"></div>
-    <div class="confetti-62"></div>
-    <div class="confetti-61"></div>
-    <div class="confetti-60"></div>
-    <div class="confetti-59"></div>
-    <div class="confetti-58"></div>
-    <div class="confetti-57"></div>
-    <div class="confetti-56"></div>
-    <div class="confetti-55"></div>
-    <div class="confetti-54"></div>
-    <div class="confetti-53"></div>
-    <div class="confetti-52"></div>
-    <div class="confetti-51"></div>
-    <div class="confetti-50"></div>
-    <div class="confetti-49"></div>
-    <div class="confetti-48"></div>
-    <div class="confetti-47"></div>
-    <div class="confetti-46"></div>
-    <div class="confetti-45"></div>
-    <div class="confetti-44"></div>
-    <div class="confetti-43"></div>
-    <div class="confetti-42"></div>
-    <div class="confetti-41"></div>
-    <div class="confetti-40"></div>
-    <div class="confetti-39"></div>
-    <div class="confetti-38"></div>
-    <div class="confetti-37"></div>
-    <div class="confetti-36"></div>
-    <div class="confetti-35"></div>
-    <div class="confetti-34"></div>
-    <div class="confetti-33"></div>
-    <div class="confetti-32"></div>
-    <div class="confetti-31"></div>
-    <div class="confetti-30"></div>
-    <div class="confetti-29"></div>
-    <div class="confetti-28"></div>
-    <div class="confetti-27"></div>
-    <div class="confetti-26"></div>
-    <div class="confetti-25"></div>
-    <div class="confetti-24"></div>
-    <div class="confetti-23"></div>
-    <div class="confetti-22"></div>
-    <div class="confetti-21"></div>
-    <div class="confetti-20"></div>
-    <div class="confetti-19"></div>
-    <div class="confetti-18"></div>
-    <div class="confetti-17"></div>
-    <div class="confetti-16"></div>
-    <div class="confetti-15"></div>
-    <div class="confetti-14"></div>
-    <div class="confetti-13"></div>
-    <div class="confetti-12"></div>
-    <div class="confetti-11"></div>
-    <div class="confetti-10"></div>
-    <div class="confetti-9"></div>
-    <div class="confetti-8"></div>
-    <div class="confetti-7"></div>
-    <div class="confetti-6"></div>
-    <div class="confetti-5"></div>
-    <div class="confetti-4"></div>
-    <div class="confetti-3"></div>
-    <div class="confetti-2"></div>
-    <div class="confetti-1"></div>
-    <div class="confetti-0"></div>
-  </div>
-  <div class="container nav_container mt-5">
-    <div class="col-sm-12 col-md-12 mauto">
-      <svg version="1.1"  width="100%" height="100%" viewBox="0 0 750 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="Group_9">
-        <path id="Vector_71" d="M669.9 93.5V113.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_72" d="M659.9 103.5H679.9" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_73" d="M664.9 98.5L674.9 108.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_74" d="M664.9 108.5L674.9 98.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g id="Group_10">
-        <path id="Vector_75" d="M620 53.7V63.7" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_76" d="M615 58.7H625" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_77" d="M617.5 56.2L622.5 61.2" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_78" d="M617.5 61.2L622.5 56.2" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g id="Group_11">
-        <path id="Vector_79" d="M481.2 116.4V136.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_80" d="M471.1 126.4H491.2" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_81" d="M476.2 121.5L486.2 131.4" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_82" d="M476.2 131.4L486.2 121.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g id="Group_12">
-        <path id="Vector_83" d="M495.6 350.5V365.1" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_84" d="M488.3 357.8H503" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_85" d="M492 354.1L499.3 361.4" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_86" d="M492 361.4L499.3 354.1" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g id="Group_13">
-        <path id="Vector_87" d="M685.7 323.3V337.9" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_88" d="M678.4 330.6H693" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_89" d="M682 327L689.3 334.2" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_90" d="M682 334.2L689.3 327" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g id="Group_14">
-        <path id="Vector_91" d="M529.1 47.9V68" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_92" d="M519 57.9H539.1" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_93" d="M524.1 53L534 62.9" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_94" d="M524.1 62.9L534 53" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <path id="Vector_158" d="M555.2 369.4C555.2 371.5 553.5 373.2 551.4 373.2C549.3 373.2 547.6 371.5 547.6 369.4C547.6 367.3 549.3 365.6 551.4 365.6C553.5 365.6 555.2 367.3 555.2 369.4Z" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_159" d="M677.5 415.7C679.599 415.7 681.3 413.999 681.3 411.9C681.3 409.801 679.599 408.1 677.5 408.1C675.401 408.1 673.7 409.801 673.7 411.9C673.7 413.999 675.401 415.7 677.5 415.7Z" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_160" d="M706.6 363.7C708.699 363.7 710.4 361.999 710.4 359.9C710.4 357.801 708.699 356.1 706.6 356.1C704.501 356.1 702.8 357.801 702.8 359.9C702.8 361.999 704.501 363.7 706.6 363.7Z" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_161" d="M684.9 52.3C684.9 54.4 683.2 56.1 681.1 56.1C679 56.1 677.3 54.4 677.3 52.3C677.3 50.2 679 48.5 681.1 48.5C683.2 48.5 684.9 50.2 684.9 52.3Z" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_162" d="M412.4 52.6C414.499 52.6 416.2 50.8987 416.2 48.8C416.2 46.7013 414.499 45 412.4 45C410.301 45 408.6 46.7013 408.6 48.8C408.6 50.8987 410.301 52.6 412.4 52.6Z" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_163" d="M459.9 102.5C459.9 104.6 458.2 106.3 456.1 106.3C454 106.3 452.3 104.6 452.3 102.5C452.3 100.4 454 98.7 456.1 98.7C458.2 98.7 459.9 100.4 459.9 102.5Z" stroke="#E27C6C" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_164" d="M623.8 95.7C623.8 97.8 622.1 99.5 620 99.5C617.9 99.5 616.2 97.8 616.2 95.7C616.2 93.6 617.9 91.9 620 91.9C622.1 91.9 623.8 93.6 623.8 95.7Z" stroke="#E27C6C" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_165" d="M663.3 323.3C663.3 325.4 661.6 327.1 659.5 327.1C657.4 327.1 655.7 325.4 655.7 323.3C655.7 321.2 657.4 319.5 659.5 319.5C661.6 319.5 663.3 321.2 663.3 323.3Z" stroke="#E27C6C" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_166" d="M503 399.1C503 401.2 501.3 402.9 499.2 402.9C497.1 402.9 495.4 401.2 495.4 399.1C495.4 397 497.1 395.3 499.2 395.3C501.3 395.3 503 397 503 399.1Z" stroke="#E27C6C" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_208" d="M154 106L152.3 110.8L147.3 110.9L151.3 113.9L149.8 118.7L154 115.8L158.1 118.7L156.6 113.9L160.6 110.9L155.6 110.8L154 106Z" stroke="#E27C6C" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_209" d="M353 67.1L351.4 71.9L346.3 72L350.3 75L348.9 79.9L353 77L357.1 79.9L355.7 75L359.7 72L354.6 71.9L353 67.1Z" stroke="#E27C6C" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        
-        <g id="Group_23">
-        <path id="Vector_236" d="M80.1 93.5V113.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_237" d="M90.1 103.5H70.1" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_238" d="M85.1 98.5L75.1 108.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_239" d="M85.1 108.5L75.1 98.5" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g id="Group_24">
-        <path id="Vector_240" d="M130 53.7V63.7" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_241" d="M135 58.7H125" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_242" d="M132.5 56.2L127.5 61.2" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path id="Vector_243" d="M132.5 61.2L127.5 56.2" stroke="#EFC87E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        </svg>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="{% sass_src 'css/pass_final.scss' %}" rel="stylesheet" type="text/css" />
+    <link href="static/css/pass_final.scss" rel="stylesheet" type="text/css" />
+    <link rel='stylesheet' href="{% static 'css/pass_text.css' %}">
+    <link rel='stylesheet' href="{% static 'css/pass_responsive.css' %}">
+    <title>합격!</title>
+  </head>
+  <body translate="" class="">
+    <div class="wrapper">
+      <div class="confetti-301"></div>
+      <div class="confetti-300"></div>
+      <div class="confetti-299"></div>
+      <div class="confetti-298"></div>
+      <div class="confetti-297"></div>
+      <div class="confetti-296"></div>
+      <div class="confetti-295"></div>
+      <div class="confetti-294"></div>
+      <div class="confetti-293"></div>
+      <div class="confetti-292"></div>
+      <div class="confetti-291"></div>
+      <div class="confetti-290"></div>
+      <div class="confetti-289"></div>
+      <div class="confetti-288"></div>
+      <div class="confetti-287"></div>
+      <div class="confetti-286"></div>
+      <div class="confetti-285"></div>
+      <div class="confetti-284"></div>
+      <div class="confetti-283"></div>
+      <div class="confetti-282"></div>
+      <div class="confetti-281"></div>
+      <div class="confetti-280"></div>
+      <div class="confetti-279"></div>
+      <div class="confetti-278"></div>
+      <div class="confetti-277"></div>
+      <div class="confetti-276"></div>
+      <div class="confetti-275"></div>
+      <div class="confetti-274"></div>
+      <div class="confetti-273"></div>
+      <div class="confetti-272"></div>
+      <div class="confetti-271"></div>
+      <div class="confetti-270"></div>
+      <div class="confetti-269"></div>
+      <div class="confetti-268"></div>
+      <div class="confetti-267"></div>
+      <div class="confetti-266"></div>
+      <div class="confetti-265"></div>
+      <div class="confetti-264"></div>
+      <div class="confetti-263"></div>
+      <div class="confetti-262"></div>
+      <div class="confetti-261"></div>
+      <div class="confetti-260"></div>
+      <div class="confetti-259"></div>
+      <div class="confetti-258"></div>
+      <div class="confetti-257"></div>
+      <div class="confetti-256"></div>
+      <div class="confetti-255"></div>
+      <div class="confetti-254"></div>
+      <div class="confetti-253"></div>
+      <div class="confetti-252"></div>
+      <div class="confetti-251"></div>
+      <div class="confetti-250"></div>
+      <div class="confetti-249"></div>
+      <div class="confetti-248"></div>
+      <div class="confetti-247"></div>
+      <div class="confetti-246"></div>
+      <div class="confetti-245"></div>
+      <div class="confetti-244"></div>
+      <div class="confetti-243"></div>
+      <div class="confetti-242"></div>
+      <div class="confetti-241"></div>
+      <div class="confetti-240"></div>
+      <div class="confetti-239"></div>
+      <div class="confetti-238"></div>
+      <div class="confetti-237"></div>
+      <div class="confetti-236"></div>
+      <div class="confetti-235"></div>
+      <div class="confetti-234"></div>
+      <div class="confetti-233"></div>
+      <div class="confetti-232"></div>
+      <div class="confetti-231"></div>
+      <div class="confetti-230"></div>
+      <div class="confetti-229"></div>
+      <div class="confetti-228"></div>
+      <div class="confetti-227"></div>
+      <div class="confetti-226"></div>
+      <div class="confetti-225"></div>
+      <div class="confetti-224"></div>
+      <div class="confetti-223"></div>
+      <div class="confetti-222"></div>
+      <div class="confetti-221"></div>
+      <div class="confetti-220"></div>
+      <div class="confetti-219"></div>
+      <div class="confetti-218"></div>
+      <div class="confetti-217"></div>
+      <div class="confetti-216"></div>
+      <div class="confetti-215"></div>
+      <div class="confetti-214"></div>
+      <div class="confetti-213"></div>
+      <div class="confetti-212"></div>
+      <div class="confetti-211"></div>
+      <div class="confetti-210"></div>
+      <div class="confetti-209"></div>
+      <div class="confetti-208"></div>
+      <div class="confetti-207"></div>
+      <div class="confetti-206"></div>
+      <div class="confetti-205"></div>
+      <div class="confetti-204"></div>
+      <div class="confetti-203"></div>
+      <div class="confetti-202"></div>
+      <div class="confetti-201"></div>
+      <div class="confetti-200"></div>
+      <div class="confetti-199"></div>
+      <div class="confetti-198"></div>
+      <div class="confetti-197"></div>
+      <div class="confetti-196"></div>
+      <div class="confetti-195"></div>
+      <div class="confetti-194"></div>
+      <div class="confetti-193"></div>
+      <div class="confetti-192"></div>
+      <div class="confetti-191"></div>
+      <div class="confetti-190"></div>
+      <div class="confetti-189"></div>
+      <div class="confetti-188"></div>
+      <div class="confetti-187"></div>
+      <div class="confetti-186"></div>
+      <div class="confetti-185"></div>
+      <div class="confetti-184"></div>
+      <div class="confetti-183"></div>
+      <div class="confetti-182"></div>
+      <div class="confetti-181"></div>
+      <div class="confetti-180"></div>
+      <div class="confetti-179"></div>
+      <div class="confetti-178"></div>
+      <div class="confetti-177"></div>
+      <div class="confetti-176"></div>
+      <div class="confetti-175"></div>
+      <div class="confetti-174"></div>
+      <div class="confetti-173"></div>
+      <div class="confetti-172"></div>
+      <div class="confetti-171"></div>
+      <div class="confetti-170"></div>
+      <div class="confetti-169"></div>
+      <div class="confetti-168"></div>
+      <div class="confetti-167"></div>
+      <div class="confetti-166"></div>
+      <div class="confetti-165"></div>
+      <div class="confetti-164"></div>
+      <div class="confetti-163"></div>
+      <div class="confetti-162"></div>
+      <div class="confetti-161"></div>
+      <div class="confetti-160"></div>
+      <div class="confetti-159"></div>
+      <div class="confetti-158"></div>
+      <div class="confetti-157"></div>
+      <div class="confetti-156"></div>
+      <div class="confetti-155"></div>
+      <div class="confetti-154"></div>
+      <div class="confetti-153"></div>
+      <div class="confetti-152"></div>
+      <div class="confetti-151"></div>
+      <div class="confetti-150"></div>
+      <div class="confetti-149"></div>
+      <div class="confetti-148"></div>
+      <div class="confetti-147"></div>
+      <div class="confetti-146"></div>
+      <div class="confetti-145"></div>
+      <div class="confetti-144"></div>
+      <div class="confetti-143"></div>
+      <div class="confetti-142"></div>
+      <div class="confetti-141"></div>
+      <div class="confetti-140"></div>
+      <div class="confetti-139"></div>
+      <div class="confetti-138"></div>
+      <div class="confetti-137"></div>
+      <div class="confetti-136"></div>
+      <div class="confetti-135"></div>
+      <div class="confetti-134"></div>
+      <div class="confetti-133"></div>
+      <div class="confetti-132"></div>
+      <div class="confetti-131"></div>
+      <div class="confetti-130"></div>
+      <div class="confetti-129"></div>
+      <div class="confetti-128"></div>
+      <div class="confetti-127"></div>
+      <div class="confetti-126"></div>
+      <div class="confetti-125"></div>
+      <div class="confetti-124"></div>
+      <div class="confetti-123"></div>
+      <div class="confetti-122"></div>
+      <div class="confetti-121"></div>
+      <div class="confetti-120"></div>
+      <div class="confetti-119"></div>
+      <div class="confetti-118"></div>
+      <div class="confetti-117"></div>
+      <div class="confetti-116"></div>
+      <div class="confetti-115"></div>
+      <div class="confetti-114"></div>
+      <div class="confetti-113"></div>
+      <div class="confetti-112"></div>
+      <div class="confetti-111"></div>
+      <div class="confetti-110"></div>
+      <div class="confetti-109"></div>
+      <div class="confetti-108"></div>
+      <div class="confetti-107"></div>
+      <div class="confetti-106"></div>
+      <div class="confetti-105"></div>
+      <div class="confetti-104"></div>
+      <div class="confetti-103"></div>
+      <div class="confetti-102"></div>
+      <div class="confetti-101"></div>
+      <div class="confetti-100"></div>
+      <div class="confetti-99"></div>
+      <div class="confetti-98"></div>
+      <div class="confetti-97"></div>
+      <div class="confetti-96"></div>
+      <div class="confetti-95"></div>
+      <div class="confetti-94"></div>
+      <div class="confetti-93"></div>
+      <div class="confetti-92"></div>
+      <div class="confetti-91"></div>
+      <div class="confetti-90"></div>
+      <div class="confetti-89"></div>
+      <div class="confetti-88"></div>
+      <div class="confetti-87"></div>
+      <div class="confetti-86"></div>
+      <div class="confetti-85"></div>
+      <div class="confetti-84"></div>
+      <div class="confetti-83"></div>
+      <div class="confetti-82"></div>
+      <div class="confetti-81"></div>
+      <div class="confetti-80"></div>
+      <div class="confetti-79"></div>
+      <div class="confetti-78"></div>
+      <div class="confetti-77"></div>
+      <div class="confetti-76"></div>
+      <div class="confetti-75"></div>
+      <div class="confetti-74"></div>
+      <div class="confetti-73"></div>
+      <div class="confetti-72"></div>
+      <div class="confetti-71"></div>
+      <div class="confetti-70"></div>
+      <div class="confetti-69"></div>
+      <div class="confetti-68"></div>
+      <div class="confetti-67"></div>
+      <div class="confetti-66"></div>
+      <div class="confetti-65"></div>
+      <div class="confetti-64"></div>
+      <div class="confetti-63"></div>
+      <div class="confetti-62"></div>
+      <div class="confetti-61"></div>
+      <div class="confetti-60"></div>
+      <div class="confetti-59"></div>
+      <div class="confetti-58"></div>
+      <div class="confetti-57"></div>
+      <div class="confetti-56"></div>
+      <div class="confetti-55"></div>
+      <div class="confetti-54"></div>
+      <div class="confetti-53"></div>
+      <div class="confetti-52"></div>
+      <div class="confetti-51"></div>
+      <div class="confetti-50"></div>
+      <div class="confetti-49"></div>
+      <div class="confetti-48"></div>
+      <div class="confetti-47"></div>
+      <div class="confetti-46"></div>
+      <div class="confetti-45"></div>
+      <div class="confetti-44"></div>
+      <div class="confetti-43"></div>
+      <div class="confetti-42"></div>
+      <div class="confetti-41"></div>
+      <div class="confetti-40"></div>
+      <div class="confetti-39"></div>
+      <div class="confetti-38"></div>
+      <div class="confetti-37"></div>
+      <div class="confetti-36"></div>
+      <div class="confetti-35"></div>
+      <div class="confetti-34"></div>
+      <div class="confetti-33"></div>
+      <div class="confetti-32"></div>
+      <div class="confetti-31"></div>
+      <div class="confetti-30"></div>
+      <div class="confetti-29"></div>
+      <div class="confetti-28"></div>
+      <div class="confetti-27"></div>
+      <div class="confetti-26"></div>
+      <div class="confetti-25"></div>
+      <div class="confetti-24"></div>
+      <div class="confetti-23"></div>
+      <div class="confetti-22"></div>
+      <div class="confetti-21"></div>
+      <div class="confetti-20"></div>
+      <div class="confetti-19"></div>
+      <div class="confetti-18"></div>
+      <div class="confetti-17"></div>
+      <div class="confetti-16"></div>
+      <div class="confetti-15"></div>
+      <div class="confetti-14"></div>
+      <div class="confetti-13"></div>
+      <div class="confetti-12"></div>
+      <div class="confetti-11"></div>
+      <div class="confetti-10"></div>
+      <div class="confetti-9"></div>
+      <div class="confetti-8"></div>
+      <div class="confetti-7"></div>
+      <div class="confetti-6"></div>
+      <div class="confetti-5"></div>
+      <div class="confetti-4"></div>
+      <div class="confetti-3"></div>
+      <div class="confetti-2"></div>
+      <div class="confetti-1"></div>
+      <div class="confetti-0"></div>
     </div>
-  </div>
-  <div class="document">
-    <h1 class="ml9">
-      <span class="text-wrapper">
-        <span class="letters" style="font-family: 'S-CoreDream-9Black';">{{obj.name}}님 서류에 합격하셨습니다!</span>
-      </span>
-    </h1>
-    <p>안녕하세요, {{obj.name}}님!</p>
-    <p>저희 멋쟁이 사자처럼 9기에 지원해주셔서 감사합니다.</p>
-    <p>멋쟁이 사자처럼 9기 서류 전형에서 통과되었음을 알려드립니다.</p>
-    <p>면접은 <u>동덕여대 꽃이피움</u>에서 진행되며 20분 정도 소요될 예정입니다.</p>
-    <p>{{obj.name}}님의 면접은 <u>{{obj.dateTime}}에 진행됩니다.</u></p>
-    <p>앞 지원자 상황에 따라 10분 내외의 시간이 지연될 수 있습니다.</p>
-    <p>불가피한 사정으로 면접 시간을 변경해야 할 경우 오픈 카톡으로 연락 주시기 바랍니다.</p>
-    <p><a href="https://open.kakao.com/o/sqwFxRWc">→ Open Kakao ← </a> </p>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <script type="text/javascript" src='/static/js/border_anim.js'></script>
-  <script type="text/javascript" src='/static/js/text_anim.js'></script>
-</body>
-</html>
+    <div class="document">
+      <h1 class="ml9">
+        <span class="text-wrapper">
+          <p class="letters" style="font-family: 'S-CoreDream-9Black';">{{obj.name}}님, 축하드립니다!<br>
+            멋쟁이사자처럼 at 동덕여대 9기에 <br>최종 합격하셨습니다!</p>
+        </span>
+      </h1>
+      <p>안녕하세요, {{obj.name}}님!<br>
+        동덕여자대학교 멋쟁이 사자처럼 9기 최종 합격되었음을 알려드립니다.<br>
+        코로나19로 인한 열악한 환경에서도 면접에 참여해주셔서 감사드립니다.<br>
+        OT는 3월 27일(토)에 진행되며 추가 안내는 따로 드리도록 하겠습니다.<br>
+        멋쟁이 사자처럼에 관심을 가져주시고 지원해주셔서 정말 감사드립니다.<br>
+        </p>
+    </div>
+  </body>
+  </html>

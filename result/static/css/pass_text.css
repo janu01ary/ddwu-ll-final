@@ -10,14 +10,14 @@
 }
 .document{
   position: absolute;
-  color:white;
+  color:black;
   background-image: url("/static/img/dongmutsa1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .ml9 {

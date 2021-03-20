@@ -349,6 +349,7 @@ h1, h3, h4, h5, h6 {
   font-family: 'Cafe24Ohsquare', serif;
   color: #fff;
   word-break: break-all;
+  display: inline;
 }
 
 #hero h2 {

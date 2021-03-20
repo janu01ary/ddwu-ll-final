@@ -69,9 +69,6 @@
   .box {
     width: 300px;
   }
-  .box > h1 {
-    font-size: 25px;
-  }
 }
 @media screen and (max-width: 360px) { 
   .box {

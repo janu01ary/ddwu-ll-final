@@ -1,19 +1,19 @@
 @media screen and (max-width: 1920px) { 
   div > .ml9 {
-    font-size: 85px;
+    font-size: 70px;
   }
   div > p {
     font-size: 25px;
   }
   .document {
-    top:20%;
+    top:10%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 1600px) { 
   div > .ml9 {
-    font-size: 85px;
+    font-size: 60px;
   }
   div > p {
     font-size: 25px;
@@ -26,7 +26,7 @@
 }
 @media screen and (max-width: 1366px) { 
   div > .ml9 {
-    font-size: 70px;
+    font-size: 60px;
   }
   div > p {
     font-size: 25px;
@@ -39,10 +39,10 @@
 }
 @media screen and (max-width: 1280px) { 
   div > .ml9 {
-    font-size: 67px;
+    font-size: 57px;
   }
   div > p {
-    font-size: 23px;
+    font-size: 25px;
   }
   .document {
     top:15%;
@@ -52,20 +52,20 @@
 }
 @media screen and (max-width: 1080px) { 
   div > .ml9 {
-    font-size: 57px;
+    font-size: 47px;
   }
   div > p {
     font-size: 20px;
   }
   .document {
-    top:15%;
+    top:30%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 1024px) { 
   div > .ml9 {
-    font-size: 54px;
+    font-size: 40px;
   }
   div > p {
     font-size: 30px;
@@ -78,40 +78,40 @@
 }
 @media screen and (max-width: 962px) { 
   div > .ml9 {
-    font-size: 50px;
+    font-size: 40px;
   }
   div > p {
-    font-size: 16px;
+    font-size: 26px;
   }
   .document {
-    top:15%;
+    top:20%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 800px) { 
   div > .ml9 {
-    font-size: 41px;
+    font-size: 31px;
   }
   div > p {
     font-size: 26px;
   }
   .document {
-    top:8%;
+    top:16%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 760px) { 
   div > .ml9 {
-    font-size: 35px;
+    font-size: 25px;
     
   }
   div > p {
-    font-size: 12px;
+    font-size: 22px;
   }
   .document {
-    top:15%;
+    top:25%;
     left:12%;
     right:10%;
   }
@@ -121,10 +121,10 @@
     font-size: 35px;
   }
   div > p {
-    font-size: 12px;
+    font-size: 22px;
   }
   .document {
-    top:15%;
+    top:25%;
     left:12%;
     right:10%;
   }
@@ -137,59 +137,72 @@
     font-size: 16px;
   }
   .document {
-    top:15%;
+    top:30%;
+    left:12%;
+    right:10%;
+  }
+}
+@media screen and (max-width: 540px) { 
+  div > .ml9 {
+    font-size: 28px;
+  }
+  div > p {
+    font-size: 16px;
+  }
+  .document {
+    top:25%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 480px) { 
   div > .ml9 {
-    font-size: 27px;
+    font-size: 17px;
   }
   div > p {
     font-size: 20px;
   }
   .document {
-    top:2%;
+    top:20%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 360px) { 
   div > .ml9 {
-    font-size: 23px;
+    font-size: 13px;
   }
   div > p {
     font-size: 15px;
   }
   .document {
-    top:10%;
+    top:20%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 340px) { 
   div > .ml9 {
-    font-size: 28px;
+    font-size: 18px;
   }
   div > p {
     font-size: 10px;
   }
   .document {
-    top:15%;
+    top:30%;
     left:12%;
     right:10%;
   }
 }
 @media screen and (max-width: 320px) { /* iPhone 5/SE기준*/
   div > .ml9 {
-    font-size: 31px;
+    font-size: 21px;
   }
   div > p {
     font-size: 18px;
   }
   .document {
-    top:0.5%;
+    top:5%;
     left:10%;
     right:10%;
   }

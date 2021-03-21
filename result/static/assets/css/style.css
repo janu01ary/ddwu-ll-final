@@ -413,7 +413,8 @@ h1, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 165px 0;
+  padding-top: 20vh;
+  padding-bottom: 200px;
 }
 
 .section-bg {
@@ -455,7 +456,17 @@ section {
   z-index: 2;
 }
 
+@media (max-width: 1024px) {
+  section {
+    padding-top: 27vh;
+    padding-bottom: 45vh;
+  }
+}
+
 @media (max-width: 575px) {
+  section {
+    padding-top: 15vh;
+  }
   .section-title h2 {
     font-size: 28px;
     margin-bottom: 15px;

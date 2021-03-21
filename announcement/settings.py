@@ -131,6 +131,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR / 'static/')
 SASS_PROCESSOR_ROOT = STATIC_ROOT
+SASS_PROCESSOR_AUTO_INCLUDE = False
 
 # ie if Heroku server
 if 'DATABASE_URL' in os.environ:
